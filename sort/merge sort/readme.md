@@ -4,8 +4,6 @@ Merge sort is a sorting technique based on divide and conquer technique. With wo
 
 Merge sort first divides the array into equal halves and then combines them in a sorted manner.
 
----
-
 ## Step #1
 
 Recursively divide the array into equal halves, until you reach an array with length 1, at which point we stop recursing.
@@ -13,9 +11,6 @@ Recursively divide the array into equal halves, until you reach an array with le
 ## Step #2
 
 Combine, the left and right halves of the array, sorting the values as we go, returning the combined sorted array back up the stack.
-
-
----
 
 ## Pseudo Code
 
